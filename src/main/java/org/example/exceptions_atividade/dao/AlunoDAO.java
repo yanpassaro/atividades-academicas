@@ -22,7 +22,7 @@ public class AlunoDAO {
     }
 
     public boolean existsAluno(AlunoModel aluno) {
-        return listarAlunos().stream().anyMatch(a -> a.getNome().equals(aluno.getNome()));
+        return listarAlunos().stream().anyMatch(a -> a.getMatricula().equals(aluno.getMatricula()));
     }
 
 }
