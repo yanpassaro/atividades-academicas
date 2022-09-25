@@ -7,10 +7,10 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class AlunoModel {
+public class EnderecoModel {
 
-    private String nome;
-    private EnderecoModel endereco;
-    private int matricula;
+    private int cep;
+
+    private String cidade;
 
 }
