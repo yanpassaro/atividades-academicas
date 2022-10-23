@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b27915d1-f8d0-42f5-9982-f4f8a03cee08" name="Changes" comment="Estudo de caso: Exceções | Versão final">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/exceptions_atividade/domain/EnderecoModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/exceptions_atividade/AlunoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/exceptions_atividade/AlunoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/exceptions_atividade/dao/AlunoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/exceptions_atividade/dao/AlunoDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/exceptions_atividade/domain/AlunoModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/exceptions_atividade/domain/AlunoModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jdbc_atividade/CarroApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jdbc_atividade/config/MySQLConnector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jdbc_atividade/domain/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jdbc_atividade/repository/CarroRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jdbc_atividade/service/CarroService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,10 +58,13 @@
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.CarroApplication">
     <configuration name="AlunoApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.exceptions_atividade.AlunoApplication" />
       <module name="atividades" />
@@ -70,8 +78,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CarroApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.jdbc_atividade.CarroApplication" />
+      <module name="atividades" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.jdbc_atividade.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CarroApplication" />
         <item itemvalue="Application.AlunoApplication" />
       </list>
     </recent_temporary>
@@ -87,7 +109,22 @@
       <workItem from="1664064949658" duration="331000" />
       <workItem from="1664065294974" duration="625000" />
       <workItem from="1664071988920" duration="1790000" />
-      <workItem from="1664137721601" duration="673000" />
+      <workItem from="1664137721601" duration="789000" />
+      <workItem from="1664321164359" duration="563000" />
+      <workItem from="1664414144383" duration="888000" />
+      <workItem from="1664415288999" duration="340000" />
+      <workItem from="1664487986575" duration="118000" />
+      <workItem from="1666561417814" duration="25000" />
+      <workItem from="1666561457092" duration="114000" />
+      <workItem from="1666561594511" duration="75000" />
+      <workItem from="1666561726800" duration="74000" />
+      <workItem from="1666561818169" duration="31000" />
+      <workItem from="1666561863827" duration="49000" />
+      <workItem from="1666561926373" duration="45000" />
+      <workItem from="1666561979187" duration="100000" />
+      <workItem from="1666562122380" duration="87000" />
+      <workItem from="1666562219399" duration="12000" />
+      <workItem from="1666562243640" duration="29000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1664065181298</created>
@@ -110,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664138091150</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Estudo de caso: Exceções | Versão final">
+      <created>1664138406598</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664138406598</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
