@@ -1,10 +1,9 @@
 <p align="left">
-<img src="https://img.shields.io/github/contributors/yangt21/projetos-escolares?color=brigthgren&style=flat-square">
-<img src="https://img.shields.io/github/commit-activity/w/yangt21/projetos-escolares?color=brigthgren&style=flat-square">
-<img src="https://img.shields.io/github/languages/count/yangt21/projetos-escolares?style=flat-square">
-<img src="https://img.shields.io/github/forks/yangt21/projetos-escolares?style=flat-square">
+<img src="https://img.shields.io/github/contributors/yangt21/projetos-academicos?logo=github&color=brigthgren&style=flat-square">
+<img src="https://img.shields.io/github/languages/count/yangt21/projetos-academicos?logo=github&style=flat-square">
+<img src="https://img.shields.io/github/forks/yangt21/projetos-academicos?logo=github&style=flat-square">
 
-# Projetos escolares
+# Projetos academicos
 
 Repositorio para realização de atividades escolares.
 
@@ -21,7 +20,7 @@ Desenvolvido como requisito avaliativo escolar.
 
 ## Instalação
 
-	git clone https://github.com/yangt21/projetos-escolares
+	git clone https://github.com/yangt21/projetos-academicos
     
 ## Referência
 
