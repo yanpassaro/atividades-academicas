@@ -16,3 +16,7 @@ n
 >src/main/java/org/example/exceptions_atividade/bo/AlunoBO.java,0\3\036fcfcbbf2baf59563580523c6a5805aa201deb
 p
 @src/main/java/org/example/exceptions_atividade/dao/AlunoDAO.java,9\b\9bfb8f41483ac52e34c491ae38b83064ad1d27e7
+n
+>src/main/java/org/example/jdbc_atividade/CarroApplication.java,0\6\06233e0ebd50fdc8d6d220da46ee56709f7110bf
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
