@@ -1,7 +1,7 @@
 <p align="left">
-<img src="https://img.shields.io/github/contributors/yangt21/atividades-academicas?logo=github&color=brigthgren&style=flat-square">
-<img src="https://img.shields.io/github/languages/count/yangt21/atividades-academicas?logo=github&style=flat-square">
-<img src="https://img.shields.io/github/forks/yangt21/atividades-academicas?logo=github&style=flat-square">
+<img src="https://img.shields.io/github/contributors/yanpassaro/atividades-academicas?logo=github&color=brigthgren&style=flat-square">
+<img src="https://img.shields.io/github/languages/count/yanpassaro/atividades-academicas?logo=github&style=flat-square">
+<img src="https://img.shields.io/github/forks/yanpassaro/atividades-academicas?logo=github&style=flat-square">
 
 # Projetos academicos
 
@@ -20,7 +20,8 @@ Desenvolvido como requisito avaliativo escolar.
 
 ## Instalação
 
-	git clone https://github.com/yangt21/atividades-academicas
+	git clone https://github.com/yanpassaro/atividades-academicas
+	cd atividades-academicas
     
 ## Referência
 
