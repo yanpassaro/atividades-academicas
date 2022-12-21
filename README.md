@@ -7,4 +7,4 @@
  
 # Projetos academicos
 
-Repositorio para realização de atividades acadêmicas.
+Repositorio utilizado para salvar e organizar atividades acadêmicas.
